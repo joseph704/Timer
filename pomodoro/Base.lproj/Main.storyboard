@@ -25,13 +25,13 @@
                                     <constraint firstAttribute="height" constant="100" id="QWg-6O-2cB"/>
                                 </constraints>
                             </imageView>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d12-uR-1UW">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d12-uR-1UW">
                                 <rect key="frame" x="24" y="248" width="366" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="XTl-BS-YAv">
+                            <progressView opaque="NO" alpha="0.0" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="XTl-BS-YAv">
                                 <rect key="frame" x="48" y="338" width="318" height="4"/>
                                 <color key="progressTintColor" name="AccentColor"/>
                             </progressView>
@@ -93,6 +93,7 @@
                     <connections>
                         <outlet property="cancelButton" destination="MZH-Gu-wUh" id="IlO-NG-GAM"/>
                         <outlet property="datePicker" destination="0Hs-tf-waC" id="00s-7U-VgE"/>
+                        <outlet property="imageView" destination="ZUM-ba-BRy" id="wyg-0E-Hde"/>
                         <outlet property="progressView" destination="XTl-BS-YAv" id="oHk-1K-cZf"/>
                         <outlet property="timerLabel" destination="d12-uR-1UW" id="uPb-FV-KvQ"/>
                         <outlet property="toggleButton" destination="Yht-Dx-7lh" id="SoT-pc-4oe"/>
