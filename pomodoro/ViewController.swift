@@ -30,11 +30,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    func setTimerInfoViewVisble(isHidden: Bool) {
-        self.timerLabel.isHidden = isHidden
-        self.progressView.isHidden = isHidden
+        configureToggleButton()
     }
     
     func configureToggleButton() {
